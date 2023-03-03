@@ -1,0 +1,23 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.latest-question-item:hover,
+.recommended-blog-item:hover,
+.relate-blog-item:hover,
+.latest-blog-item:hover {
+  box-shadow: 1px 1px 1px gray;
+}
+
+.admin-blogs-item:hover,
+.admin-question-item:hover {
+  text-decoration: underline;
+}
